@@ -1,0 +1,4 @@
+/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build/CMakeFiles/heat_solver.dir
+/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build/CMakeFiles/wave_solver.dir
+/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build/CMakeFiles/edit_cache.dir
+/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build/CMakeFiles/rebuild_cache.dir

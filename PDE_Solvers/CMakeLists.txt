@@ -11,7 +11,7 @@ if(OpenMP_FOUND)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-# MPI (disabled for now since you removed it)
+# MPI (disabled for now)
 # find_package(MPI)
 
 include_directories(include)

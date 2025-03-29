@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build",
-  "command": "/usr/bin/g++ -D_OPENMP -I/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/include  -fopenmp -O3 -DNDEBUG -std=gnu++14 -fopenmp -o CMakeFiles/heat_solver.dir/src/heat_solver.cpp.o -c /home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/heat_solver.cpp",
+  "command": "/usr/bin/g++ -D_OPENMP -I/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/include  -fopenmp -g -std=gnu++14 -fopenmp -o CMakeFiles/heat_solver.dir/src/heat_solver.cpp.o -c /home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/heat_solver.cpp",
   "file": "/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/heat_solver.cpp",
   "output": "CMakeFiles/heat_solver.dir/src/heat_solver.cpp.o"
 },
 {
   "directory": "/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/build",
-  "command": "/usr/bin/g++ -D_OPENMP -I/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/include  -fopenmp -O3 -DNDEBUG -std=gnu++14 -fopenmp -o CMakeFiles/wave_solver.dir/src/wave_solver.cpp.o -c /home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/wave_solver.cpp",
+  "command": "/usr/bin/g++ -D_OPENMP -I/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/include  -fopenmp -g -std=gnu++14 -fopenmp -o CMakeFiles/wave_solver.dir/src/wave_solver.cpp.o -c /home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/wave_solver.cpp",
   "file": "/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/src/wave_solver.cpp",
   "output": "CMakeFiles/wave_solver.dir/src/wave_solver.cpp.o"
 }

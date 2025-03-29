@@ -6,5 +6,5 @@ CXX_DEFINES = -D_OPENMP
 
 CXX_INCLUDES = -I/home/sowmya/Documents/Learn/HPCProject/PDE_Solvers/include
 
-CXX_FLAGS =  -fopenmp -O3 -DNDEBUG -std=gnu++14 -fopenmp
+CXX_FLAGS =  -fopenmp -g -std=gnu++14 -fopenmp
 

@@ -40,11 +40,16 @@ def plot_wave_3d(u):
     ax = fig.add_subplot(111, projection='3d')
     
     # Plot positive and negative wavefronts
-    print(f"u.min(): {u.min()}, u.max(): {u.max()}")  # Debugging line
-    for level in [0.3, -0.3]:
-        if(level < u.min() or level > u.max()):
-            print(f"Warning: level {level} is out of bounds for the data range.")
-            continue
+    min_val = u.min()
+    max_val = u.max()
+
+    print(f"min_val: {min_val}, max_val: {max_val}")  # Debugging line
+
+    # adjust the levels to ensure they are within the data range
+    level1 = min_val + 0.1 if min_val + 0.1 < max_val else min_val
+    level2 = max_val - 0.1 if max_val - 0.1 > min_val else max_val
+
+    for level in [level1, level2]:
         verts, faces, _, _ = measure.marching_cubes(u, level=level)
         ax.plot_trisurf(verts[:, 0], verts[:, 1], faces, verts[:, 2],
                        cmap='RdBu' if level > 0 else 'RdBu_r',

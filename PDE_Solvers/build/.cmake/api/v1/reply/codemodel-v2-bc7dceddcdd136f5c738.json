@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "heat_solver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-heat_solver-Release-5a9492ffde3a57e0e295.json",
+					"jsonFile" : "target-heat_solver-Debug-7e77689bf7febb63520e.json",
 					"name" : "heat_solver",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "wave_solver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wave_solver-Release-b68a775fa580ef35daee.json",
+					"jsonFile" : "target-wave_solver-Debug-3df1da163b0b89223800.json",
 					"name" : "wave_solver",
 					"projectIndex" : 0
 				}

@@ -1,1 +1,1 @@
-/usr/bin/g++  -fopenmp -O3 -DNDEBUG CMakeFiles/wave_solver.dir/src/wave_solver.cpp.o -o wave_solver  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 
+/usr/bin/g++  -fopenmp -g CMakeFiles/wave_solver.dir/src/wave_solver.cpp.o -o wave_solver  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 

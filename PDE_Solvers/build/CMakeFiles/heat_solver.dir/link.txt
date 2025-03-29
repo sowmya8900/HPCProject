@@ -1,1 +1,1 @@
-/usr/bin/g++  -fopenmp -O3 -DNDEBUG CMakeFiles/heat_solver.dir/src/heat_solver.cpp.o -o heat_solver  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 
+/usr/bin/g++  -fopenmp -g CMakeFiles/heat_solver.dir/src/heat_solver.cpp.o -o heat_solver  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 

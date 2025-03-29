@@ -66,7 +66,7 @@ def create_heat_animation():
         _, _, _, u = load_data(f'data/heat_step_{t}.txt')
         frames.append(u[:, :, u.shape[2]//2])  # Middle Z-slice
     
-    im = ax.imshow(frames[0], cmap='hot', vmin=100, vmax=200)
+    im = ax.imshow(frames[0], cmap='hot', vmin=u.min(), vmax=u.max())
     fig.colorbar(im, label='Temperature')
     ax.set_title('Heat Diffusion Over Time')
     
